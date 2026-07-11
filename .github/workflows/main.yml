@@ -97,7 +97,6 @@ jobs:
               exit 1
           }
           Write-Host "TCP connectivity successful!"
-		  
       - name: Debug RDP
         shell: pwsh
         run: |
